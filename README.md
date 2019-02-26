@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Drug Killer: Detecting Youth Cannabis Usage
 
 Christina (Ling) Ho
@@ -130,8 +129,8 @@ We can also give students an annual survey with the same questions and conduct t
 
 ## Part 5: Results
 ![Table1](Images/Results.jpg)
-The result of each algorithm is shown in Table 1. If we argue
-appropriate model, we could conclude that most classifiers perform equally well on our data and XGBoost is the best classifier. However as we see from the table below, XGBoost is only slightly better than the Logistic Regression Model. XGBoost acts like a black box model while logistic regression has an intuitive statistical explanation. Considering interpretability and model complexity being important criteria; we choose logistic regression as our final model. Finally, we retrain our model on the whole training set with the best hyper parameter (l1 penalty, C=1.2), and evaluate our final model on the test set, which give us AUC of 0.8661, f1 score of 0.5897 and accuracy of 0.7931. The confusion matrix of the test set is also shown.
+
+The result of each algorithm is shown in Table 1. If we argue appropriate model, we could conclude that most classifiers perform equally well on our data and XGBoost is the best classifier. However as we see from the table below, XGBoost is only slightly better than the Logistic Regression Model. XGBoost acts like a black box model while logistic regression has an intuitive statistical explanation. Considering interpretability and model complexity being important criteria; we choose logistic regression as our final model. Finally, we retrain our model on the whole training set with the best hyper parameter (l1 penalty, C=1.2), and evaluate our final model on the test set, which give us AUC of 0.8661, f1 score of 0.5897 and accuracy of 0.7931. The confusion matrix of the test set is also shown.
 
 ![ROC Curves](Images/AUC.jpg)
 
@@ -174,19 +173,5 @@ One of the advantages of logistic regression is that it can give an explicit exp
 
 
 =======
-# Detecting Youth Cannabis Usage
-###### Captstone Project for New York University's Center for Data Science
 
-The problem proposed is to detect marijuana usage for youth, specifically the people aged 18 and under to utilize these findings for preventative purposes. A number of U.S. states have already legalized or are in the process of legalizing cannabis. The increasing prevalence leads to an increase in the percentage of tetrahydrocannabinol (THC), the most active ingredient in cannabis, making the drug more potent. Over the last two decades, there are significant studies which establishes links between cannabis use and psychotic outcomes. In this study, we aim to propose a machine learning and statistical approach to pattern detection and to developing predictive models for cannabis usage which leads to first-episode psychosis and other related mental and physical deterioration. 
-
-
-We focus on youth to gear our study on the reasons people start using the drug at a young age. Teenagers may tend to use cannabis in undisclosed circumstances, making it hard to detect the likelihood of cannabis use by a specific individual directly at some point in the future. We plan on using features such as cannabis lifetime, annual, and past-month usage, substance abuse treatment history, perceived need for treatment, mental health history and perception of the drug in general. Other features include health care access and coverage, illegal activities and arrest record. Our data is pulled from the National Survey on Drug Use and Health, 2012.  The survey measures prevalence and correlates of drug use in each of the 50 U.S. states. There is 3120 variables in the original data source and we are aiming to narrow the variables down to about 30. The data instance is the 17,399 respondents in the study under 18 years old.
-
-
-
- By constructing such a model with cannabis usage of people under the age of 18 as the target variable and these individual chosen attributes as predictors, we define the supervised data mining problem as a classification problem. Marijuana usage is to be defined as a binary variable (Marijuana [Yes/No]). We will be analyzing the data to find correlations between the predictor variables and the target variables in the training data. We run our model on our training data(NSDUH).  
-
-
- This model can be used by government institutions, schools, children’s hospitals, and medical research facilities. If a school with a large student population is able to predict which of their students are more likely to start using marijuana, they can focus their resources on adequate information, guidance and counseling services to this group to act as preventive measures. This is beneficial as school resources can be utilized in an efficient and effective manner. The public health department can determine some key factors that can lead to cannabis usage, which can be alleviated from the source found from our study. Medical research facilities can use the study to enhance their research on psychotic disorders and preventions, using the knowledge about underlying issues and variables that trigger cannabis use. 
->>>>>>> 4389a0273a6d744bc6aabc838cf8affaf318f774
 
