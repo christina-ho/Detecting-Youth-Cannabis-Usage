@@ -1,7 +1,5 @@
 # Drug Killer: Detecting Youth Cannabis Usage
 
-Christina (Ling) Ho
-
 ## Capstone Project for New York University's Center for Data Science: Introduction to Data Science
 
 ## Directory Structure
