@@ -1,6 +1,6 @@
 # Drug Killer: Detecting Youth Cannabis Usage
 
-## Capstone Project for New York University's Center for Data Science: Introduction to Data Science
+Capstone Project for New York University's Center for Data Science: Introduction to Data Science
 
 ## Directory Structure
 `Code` contains code used in this project
